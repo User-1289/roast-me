@@ -1,0 +1,368 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_pedCV0DNTnKfVKsALKX5NnkJ",
+      "object": "thread.message",
+      "created_at": 1732460056,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_Rd9ht2zDpG8hRJMyUrtvEmyd",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "What’s up? Did I hit a nerve, or do you have more wisdom to drop on me?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_0gMZfzZY4UjRnFiKIv7FcccS",
+      "object": "thread.message",
+      "created_at": 1732460054,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "bro",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_c54bJV47mtumHtsdJVTvacg6",
+      "object": "thread.message",
+      "created_at": 1732460035,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_wKS2IlCZusY3EoYrOBB8Xdm7",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "I get it! Everyone wants a partner who’s as awesome as they are. Just remember, while you’re mastering code, be sure to master some social skills too! Confidence and a little charm can go a long way—definitely farther than just mastering the latest JavaScript framework!",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_SBnNWL1fj5u4Pg2qbKVciVVB",
+      "object": "thread.message",
+      "created_at": 1732460033,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "well, dude, i want an awesome girl man, as my gf",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_SFfsYIepyArbaaXVqXetF5UT",
+      "object": "thread.message",
+      "created_at": 1732459998,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_AcYFjIyz85OruOpqNGdxfRFi",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "True, while they’re scrolling endlessly through TikTok, you’re building skills that could one day pay off—unlike those dance moves that no one will remember after the next trend. You're investing in your future, while they’re just investing in a few laughs from cat videos! Keep grinding!",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_QbEcqkA7OenAXij5sbdo7ph8",
+      "object": "thread.message",
+      "created_at": 1732459997,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "well, yeah, when others are just watching tiktok and wasting their lives and doing shit",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_AEXuARV8JNNpdvLz7pLYuljf",
+      "object": "thread.message",
+      "created_at": 1732459964,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_t45t4K3AFYQx9c6uHhbFVaFp",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Ah, 15! A prime time for discovering who you are—like figuring out whether you want to code or just watch the same five YouTube videos on repeat. Don’t worry, the friends will come… or at least some online pals who share your passion for debugging!",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_thBFtdcAlqhWuHzcKuOucHle",
+      "object": "thread.message",
+      "created_at": 1732459963,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "nah, my age",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_f4I4JspqbQaeJD7ij5RkzVaF",
+      "object": "thread.message",
+      "created_at": 1732459951,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_8wnEbR3JLmYvmx8lvuyhiKdm",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "15? Sounds like the number of people who’ve tried to talk to you in the past month! Just kidding—at least you’re not getting ghosted in person!",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_u2OSZEp7jgE4UrreCVjEMDIo",
+      "object": "thread.message",
+      "created_at": 1732459950,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "15",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_rR5jACKRd6Hv6UnN2id09kFp",
+      "object": "thread.message",
+      "created_at": 1732459938,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_SPieviaSLiO5HbWKeubQ0le5",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Ah, a developer! So while the rest of us are out trying to make friends, you’re busy making bugs and fixing them. I guess that makes the code your only companion—hope you’re giving it enough attention!",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_OcAvNWRWpVpOyBfD6X8Mm7GW",
+      "object": "thread.message",
+      "created_at": 1732459937,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "nah, im a dev",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_rz3OSGd6Q0nVWXhtkJeosIRE",
+      "object": "thread.message",
+      "created_at": 1732459924,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_SMp768qI4BwIKQe8nFYcAGWk",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "That's okay! You've saved yourself from the awkwardness of small talk and the hassle of making plans. But don't worry—at least your couch and Netflix are enjoying your company!",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_wogr4WRzAGTWPcaZTFDzQwfo",
+      "object": "thread.message",
+      "created_at": 1732459922,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "i dont have social life,",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_rVq7uBSc8babko4Xm21qngeB",
+      "object": "thread.message",
+      "created_at": 1732459898,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_T74u7vy82jZCzFsiAVT1ERHL",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Hey again! Still here. What’s on your mind?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_GavDGeJvlDI0eInUx3W4nG3F",
+      "object": "thread.message",
+      "created_at": 1732459897,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "hey",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_2f8HaQH4vohhq1Z0FM9oWV8M",
+      "object": "thread.message",
+      "created_at": 1732459707,
+      "assistant_id": "asst_XZcovvcg0pzA3hwiFFqy6dfL",
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": "run_Xgqrog2CVHNLC6fjgUX5O5RO",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Hey there! Ready to get roasted?",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_DkYlvvTtFttjIXYvlCWE70FM",
+      "object": "thread.message",
+      "created_at": 1732459705,
+      "assistant_id": null,
+      "thread_id": "thread_Tl8FtlTGpeibsvzuFq5OhXFQ",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "hey",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_pedCV0DNTnKfVKsALKX5NnkJ",
+  "last_id": "msg_DkYlvvTtFttjIXYvlCWE70FM",
+  "has_more": false
+}

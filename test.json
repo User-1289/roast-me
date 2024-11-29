@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "data": {
+    "threadId": "thread_iTiDVq1MXpXkJgN0Aquqnnx1",
+    "runId": "run_QH3iVU1AjdTW7Cs8Ucu4eXIw",
+    "response": {
+      "type": "text",
+      "text": {
+        "value": "A 15-year-old developer? Impressive! You're probably coding more lines than you have friends at this point! With all that time spent in front of a screen, I hope your social skills come with a bug-fix update soon. Good luck trying to debug your social life—you might need a whole new algorithm for that!",
+        "annotations": []
+      }
+    },
+    "status": "completed"
+  }
+}
