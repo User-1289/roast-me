@@ -11,8 +11,7 @@ export async function GET(req: NextRequest) {
     let threadId = cookieStore.get("threadId")?.value;
     
     if (!threadId) {
-        threadId = await createThread();
-        cookieStore.set("threadId", threadId);
+        return NextResponse.json({ error: "No thread ID found" }, { status: 400 });
     }
     try{
         const messages = await openai.beta.threads.messages.list(threadId);
