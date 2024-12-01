@@ -14,19 +14,8 @@ interface UserInfo {
 
 export function UserInfoPopup() {
   const [isOpen, setIsOpen] = useState(false)
-  const [userInfo, setUserInfo] = useState<UserInfo>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('userInfo')
-      if (saved) {
-        return JSON.parse(saved)
-      }
-    }
-    return { name: '', age: '', bio: '' }
-  })
+  const [userInfo, setUserInfo] = useState<UserInfo>({ name: '', age: '', bio: '' })
 
-  useEffect(() => {
-    localStorage.setItem('userInfo', JSON.stringify(userInfo))
-  }, [userInfo])
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()

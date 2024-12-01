@@ -57,22 +57,13 @@ export default function RoastMeBot() {
     loadThread()
   }, [])
 
-  useEffect(() => {
-    const savedUserInfo = localStorage.getItem('userInfo')
-    if (savedUserInfo) {
-      setUserInfo(JSON.parse(savedUserInfo))
-    }
-  }, [])
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleMessageSubmit = async (userMessage: string) => {
+    const trimmedMessage = userMessage.trim();
+    if (!trimmedMessage) return;
   
-    const userMessage = input.trim();
-    if (!userMessage) return;
-  
-    const userMessageObj: Message = { role: 'user', content: userMessage };
+    const userMessageObj: Message = { role: 'user', content: trimmedMessage };
     setMessages((prevMessages) => [...prevMessages, userMessageObj]);
-    setInput('');
   
     try {
       const response = await fetch('/api/roast', {
@@ -80,9 +71,9 @@ export default function RoastMeBot() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ 
-          message: userMessage,
-         //userInfo: userInfo 
+        body: JSON.stringify({
+          message: trimmedMessage,
+          //userInfo: userInfo
         }),
       });
   
@@ -103,7 +94,7 @@ export default function RoastMeBot() {
   
       setMessages((prevMessages) => [...prevMessages, botMessage]);
     } catch (error) {
-      console.error('Error in handleSubmit:', error);
+      console.error('Error in handleMessageSubmit:', error);
   
       const errorMessage: Message = {
         role: 'bot',
@@ -136,7 +127,7 @@ export default function RoastMeBot() {
           </div>
         ))}
       </ScrollArea>
-      <form onSubmit={handleSubmit} className="p-4 bg-gray-800 flex gap-2">
+      <form onSubmit={(event)=> {event.preventDefault(); handleMessageSubmit(input)}} className="p-4 bg-gray-800 flex gap-2">
         <Input
           type="text"
           value={input}
