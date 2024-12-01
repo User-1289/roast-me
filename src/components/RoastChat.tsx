@@ -34,7 +34,8 @@ export default function RoastMeBot() {
     const response = await fetch('/api/load_thread')
     let data = await response.json()
     console.log(data)
-    if(data.length === 0){
+
+    if(data.length === 0 || data.error){
       return
     }
     data = data.reverse()
