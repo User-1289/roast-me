@@ -127,7 +127,7 @@ export default function RoastMeBot() {
           </div>
         ))}
       </ScrollArea>
-      <form onSubmit={(event)=> {event.preventDefault(); handleMessageSubmit(input)}} className="p-4 bg-gray-800 flex gap-2">
+      <form onSubmit={(event)=> {event.preventDefault(); handleMessageSubmit(input); setInput("")}} className="p-4 bg-gray-800 flex gap-2">
         <Input
           type="text"
           value={input}
